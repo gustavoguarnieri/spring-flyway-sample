@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  postgres:
+    image: postgres
+    networks:
+      - postgres
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=masterkey
+    ports:
+      - 5432:5432
+
+networks:
+  postgres:
+    driver: bridge
