@@ -23,10 +23,19 @@ PostgreSQL
 3) Start project.
    
 4) The scripts contained in "db.migration" will be executed, see below the prints of a visual interface of the database.
-
-#imagem
-  
+ 
 ```
+
+- flyway_schema_history table
+
+ ![Flyway History Table](https://github.com/gustavoguarnieri/spring-flyway-sample/blob/main/src/main/resources/image/flyway_schema_history.JPG)
+ 
+ - ingredient table
+ 
+ ![Ingredient Table](https://github.com/gustavoguarnieri/spring-flyway-sample/blob/main/src/main/resources/image/ingredient.JPG)
+ 
+ 
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
